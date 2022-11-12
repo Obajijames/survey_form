@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <i class="fa fa-bars" style="font-size: 36px; background-color: white; opacity: .3; margin: 5px; padding: 0 5px 0 5px;"></i>
+        <div class="main">
+            <div class="title">
+                <h1>CapacityBay Survey Form</h1>
+                <p>Thank you for taking the time to help us improve the platform</p>
+            </div>
+            <div class="survery_form">
+                <form action="">
+                    <label for="Name">Name</label><br>
+                    <input class="long" type="text" placeholder="Enter your name"> <br><br>
+
+                    <label for="Emai">Email Address</label> <br>
+                    <input class="long" type="email" placeholder="Enter your e-mail"> <br><br>
+                    
+                    <label for="Age">Age (Optional)</label><br>
+                    <input class="long" type="number" placeholder="Age"><br><br>
+
+                    <label for="Description">Which option best describes your current role?</label> <br>
+                    <select name="" id="" class="long" >
+                        <option value="">Select current role</option>
+                        <option value="">Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Learner</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Other</option>
+                    </select><br><br>
+
+                    <label for="Recommedation">Would you recommend CapacityBay to a friend?</label><br>
+                    <input type="radio">Definitely <br>
+                    <input type="radio">Maybe <br>
+                    <input type="radio">Not sure <br><br>
+
+                    <label for="Challenges">What is your favorite feature of CapacityBay</label> <br>
+                    <select name="" id="" class="long">
+                        <option value="">Select an option</option>
+                        <option value="">Challenges</option>
+                        <option value="">Projects</option>
+                        <option value="">Community</option>
+                        <option value="">Open Source</option>
+                    </select><br><br>
+
+                    <label for="Improvement">What would you like to see improved? (Check all that apply)</label><br>
+                    <input type="checkbox">Front-end Projects <br>
+                    <input type="checkbox">Back-end Projects <br>
+                    <input type="checkbox">Data Visualization <br>
+                    <input type="checkbox">Challenges <br>
+                    <input type="checkbox">Open Source Community <br>
+                    <input type="checkbox">Gitter Help Rooms <br>
+                    <input type="checkbox">Videos <br>
+                    <input type="checkbox">City Meetups <br>
+                    <input type="checkbox">Wiki <br>
+                    <input type="checkbox">Forum <br>
+                    <input type="checkbox">Additional Courses <br><br>
+
+                    <label for="Comment">Any comments or suggestions?</label><br>
+                    <textarea name="" id="" cols="30" rows="10">Enter your comment here...</textarea> <br><br>
+
+                    <button class="submit"><a href="">Submit</a></button>
+                </form>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
